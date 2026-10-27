@@ -1,0 +1,22 @@
+
+========== BWA-aln ==========
+Total reads: 100
+Mapped: 100
+Correctly mapped: 100
+Incorrectly mapped: 0
+Unmapped: 0
+Mapping rate: 100.00%
+Correct mapping rate: 100.00%
+Precision among mapped reads: 100.00%
+
+========== Bowtie2 ==========
+Total reads: 100
+Mapped: 100
+Correctly mapped: 100
+Incorrectly mapped: 0
+Unmapped: 0
+Mapping rate: 100.00%
+Correct mapping rate: 100.00%
+Precision among mapped reads: 100.00%
+
+Results saved to: results/pilot_30bp_ground_truth_evaluation.csv

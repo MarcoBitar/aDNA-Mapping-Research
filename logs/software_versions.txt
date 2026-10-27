@@ -1,0 +1,18 @@
+Research Software Versions
+==========================
+2026-10-12T20:49:22+03:00
+
+Python:
+Python 3.11.17
+
+BWA:
+Version: 0.7.19-r1273
+
+Bowtie2:
+/home/Marco_Bitar/miniforge3/envs/adna_mapping/bin/bowtie2-align-s version 2.5.5
+
+SAMtools:
+samtools 1.24
+
+Cutadapt:
+5.2

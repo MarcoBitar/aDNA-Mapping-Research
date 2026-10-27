@@ -1,0 +1,48 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Python environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Generated BWA indexes
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Generated Bowtie2 indexes
+*.bt2
+*.bt2l
+
+# Generated FASTA indexes
+*.fai
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Local experimental copy of third-party Gargammel source
+# The final pipeline uses the Conda-installed deamSim instead.
+scripts/gargammel_controlled/gargammel_seeded.pl
+
+# Redundant manuscript figure review archive
+figures/manuscript_figures_review.zip
+
+# Accidental terminal output file
+/ort -u

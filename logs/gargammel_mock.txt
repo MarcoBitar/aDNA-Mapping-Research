@@ -1,0 +1,28 @@
+Did not find multiple directories for the different cells therefore using 1 cell
+Found endogenous file  simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta
+running cmd samtools faidx simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta
+
+Found 0 bp bacterial, 0 bp contaminant, 16569 bp endogenous
+Computed average size: 50bp
+We will generate: 
+
+10	total fragments
+--------------------------------------------
+10	( 100.00%) 	endogenous fragments
+--------------------------------------------
+0	( 0.00%) 	contaminant fragments
+--------------------------------------------
+0	( 0.00%) 	bacterial fragments
+--------------------------------------------
+running cmd fragSim -tag e -n 10 -m 0  -M 1000  -l 50   simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta | gzip > simulation/pilot_check.e.fa.gz
+running cmd touch simulation/pilot_check.c.fa.gz
+running cmd touch simulation/pilot_check.b.fa.gz
+running cmd gzip -c -d  simulation/pilot_check.e.fa.gz  | gzip > simulation/pilot_check_d.fa.gz
+running cmd gzip -c -d  simulation/pilot_check.b.fa.gz  | gzip >> simulation/pilot_check_d.fa.gz
+running cmd gzip -c -d  simulation/pilot_check.c.fa.gz  | gzip >> simulation/pilot_check_d.fa.gz
+running cmd adptSim  -f AGATCGGAAGAGCACACGTCTGAACTCCAGTCACCGATTCGATCTCGTATGCCGTCTTCTGCTTG  -s AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATTT  -l 75  -arts simulation/pilot_check_a.fa  simulation/pilot_check_d.fa.gz
+running cmd art_illumina -ss HS25 -amp -na      -i simulation/pilot_check_a.fa  -l 75  -c 1  -qs  0  -qs2 0  -o simulation/pilot_check_s
+running cmd gzip -f simulation/pilot_check_a.fa
+running cmd gzip -f simulation/pilot_check_s.fq
+Single-end reads available here: simulation/pilot_check_s.fq.gz
+Program finished successfully

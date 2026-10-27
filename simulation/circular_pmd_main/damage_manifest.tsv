@@ -1,0 +1,13 @@
+length	damage_level	parameters	seed	output
+30	low	0.03,0.30,0.005,0.05	20301	simulation/circular_pmd_main/reads_30bp_low.fasta.gz
+30	moderate	0.03,0.30,0.01,0.10	20302	simulation/circular_pmd_main/reads_30bp_moderate.fasta.gz
+30	high	0.03,0.30,0.03,0.30	20303	simulation/circular_pmd_main/reads_30bp_high.fasta.gz
+40	low	0.03,0.30,0.005,0.05	20401	simulation/circular_pmd_main/reads_40bp_low.fasta.gz
+40	moderate	0.03,0.30,0.01,0.10	20402	simulation/circular_pmd_main/reads_40bp_moderate.fasta.gz
+40	high	0.03,0.30,0.03,0.30	20403	simulation/circular_pmd_main/reads_40bp_high.fasta.gz
+50	low	0.03,0.30,0.005,0.05	20501	simulation/circular_pmd_main/reads_50bp_low.fasta.gz
+50	moderate	0.03,0.30,0.01,0.10	20502	simulation/circular_pmd_main/reads_50bp_moderate.fasta.gz
+50	high	0.03,0.30,0.03,0.30	20503	simulation/circular_pmd_main/reads_50bp_high.fasta.gz
+70	low	0.03,0.30,0.005,0.05	20701	simulation/circular_pmd_main/reads_70bp_low.fasta.gz
+70	moderate	0.03,0.30,0.01,0.10	20702	simulation/circular_pmd_main/reads_70bp_moderate.fasta.gz
+70	high	0.03,0.30,0.03,0.30	20703	simulation/circular_pmd_main/reads_70bp_high.fasta.gz

@@ -1,0 +1,20 @@
+NC_012920.1:+:10891:10941:50e-1: position=10892, strand=+, correct=True
+NC_012920.1:-:14427:14477:50e-1: position=14428, strand=-, correct=True
+NC_012920.1:+:866:916:50e-1: position=867, strand=+, correct=True
+NC_012920.1:+:2543:2593:50e-1: position=2544, strand=+, correct=True
+NC_012920.1:+:10195:10245:50e-1: position=10196, strand=+, correct=True
+NC_012920.1:+:14537:14587:50e-1: position=14538, strand=+, correct=True
+NC_012920.1:-:16352:16402:50e-1: position=16353, strand=-, correct=True
+NC_012920.1:+:10393:10443:50e-1: position=10394, strand=+, correct=True
+NC_012920.1:-:1965:2015:50e-1: position=1966, strand=-, correct=True
+NC_012920.1:+:11610:11660:50e-1: position=11611, strand=+, correct=True
+
+EVALUATION SUMMARY
+------------------
+Total reads: 10
+Mapped reads: 10
+Correct alignments: 10
+Incorrect mapped alignments: 0
+Unmapped reads: 0
+Mapping rate: 100.00%
+Correct mapping rate: 100.00%

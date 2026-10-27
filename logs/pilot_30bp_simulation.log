@@ -1,0 +1,62 @@
+Did not find multiple directories for the different cells therefore using 1 cell
+Found endogenous file  simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta
+Found endogenous index simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta.fai
+
+Found 0 bp bacterial, 0 bp contaminant, 16569 bp endogenous
+Computed average size: 30bp
+We will generate: 
+
+100	total fragments
+--------------------------------------------
+100	( 100.00%) 	endogenous fragments
+--------------------------------------------
+0	( 0.00%) 	contaminant fragments
+--------------------------------------------
+0	( 0.00%) 	bacterial fragments
+--------------------------------------------
+running cmd fragSim -tag e -n 100 -m 0  -M 1000  -l 30  --seed 401   simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta | gzip > simulation/pilot_30bp_undamaged.e.fa.gz
+Mapped simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta into memory
+Program fragSim terminated succesfully, wrote 100 sequences
+running cmd gzip -c </dev/null > simulation/pilot_30bp_undamaged.c.fa.gz
+running cmd gzip -c </dev/null > simulation/pilot_30bp_undamaged.b.fa.gz
+running cmd gzip -c -d  simulation/pilot_30bp_undamaged.e.fa.gz  | gzip > simulation/pilot_30bp_undamaged_d.fa.gz
+running cmd gzip -c -d  simulation/pilot_30bp_undamaged.b.fa.gz  | gzip >> simulation/pilot_30bp_undamaged_d.fa.gz
+running cmd gzip -c -d  simulation/pilot_30bp_undamaged.c.fa.gz  | gzip >> simulation/pilot_30bp_undamaged_d.fa.gz
+running cmd adptSim  -f AGATCGGAAGAGCACACGTCTGAACTCCAGTCACCGATTCGATCTCGTATGCCGTCTTCTGCTTG  -s AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATTT  -l 75  -arts simulation/pilot_30bp_undamaged_a.fa  simulation/pilot_30bp_undamaged_d.fa.gz
+Program adptSim terminated succesfully, wrote 100 sequences
+running cmd art_illumina -ss HS25 -amp -na      -i simulation/pilot_30bp_undamaged_a.fa  -l 75  -c 1  -qs  0  -qs2 0  -rs 403  -o simulation/pilot_30bp_undamaged_s
+
+    ====================ART====================
+             ART_Illumina (2008-2016)          
+          Q Version 2.5.8 (June 6, 2016)       
+     Contact: Weichun Huang <whduke@gmail.com> 
+    -------------------------------------------
+
+Warning: your simulation will not output any ALN or SAM file with your parameter settings!
+              Amplicon 5'-end sequencing simulation
+
+Total CPU time used: 0.119875
+
+The random seed for the run: 403
+
+Parameters used during run
+	Read Length:	75
+	Genome masking 'N' cutoff frequency: 	1 in 75
+	# Reads per Amplion:       0
+	First quality shift:      0
+	Second quality shift:     0
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   HiSeq 2500 Length 126 R1 (built-in profile) 
+
+Output files
+
+  FASTQ Sequence File:
+	simulation/pilot_30bp_undamaged_s.fq
+
+running cmd gzip -f simulation/pilot_30bp_undamaged_a.fa
+running cmd gzip -f simulation/pilot_30bp_undamaged_s.fq
+Single-end reads available here: simulation/pilot_30bp_undamaged_s.fq.gz
+Program finished successfully

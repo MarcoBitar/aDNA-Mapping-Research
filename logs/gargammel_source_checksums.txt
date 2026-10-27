@@ -1,0 +1,2 @@
+f3d4a4a8de15d74cbe044b83ddb8916450cf544a147b07df01e0797d9dd80517  /home/Marco_Bitar/miniforge3/envs/adna_mapping/bin/gargammel
+f3d4a4a8de15d74cbe044b83ddb8916450cf544a147b07df01e0797d9dd80517  scripts/gargammel_controlled/gargammel_seeded.pl

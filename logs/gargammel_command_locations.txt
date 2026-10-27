@@ -1,0 +1,17 @@
+78:    if(system(@argstorun) != 0){
+93:  if (system(@argstorun) != 0) {
+236:my $adptsim = "adptSim";
+237:my $deamsim = "deamSim";
+238:my $fragsim = "fragSim";
+239:my $artprog = "art_illumina";
+868:    open(FILE,$bactdir."/list");
+907:  open(FILE,$fafile.".fai");
+982:  open(FILE,$fafile.".fai");
+1117:    open(FILE,$fafile.".fai");
+1145:    open(FILE,$arrayofFilesendofai[0]);
+1156:    open(FILE,$arrayofFilesendofai[1]);
+1190:  open(FILE,"gunzip -f -c ".$filefragfreqsize." | ");
+1206:    open(FILE,"gunzip -f -c ".$filefragsize." | ");
+1452:#  Calling fragSim     #
+1694:#  Calling deamSim     #
+1834:#  Calling adptSim     #

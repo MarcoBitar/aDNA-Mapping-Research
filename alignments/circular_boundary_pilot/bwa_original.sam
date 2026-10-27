@@ -1,0 +1,6 @@
+@HD	VN:1.5	SO:unsorted	GO:query
+@SQ	SN:NC_012920.1	LN:16569
+@PG	ID:bwa	PN:bwa	VN:0.7.19-r1273	CL:bwa samse reference/rCRS_NC_012920.1.fasta alignments/circular_boundary_pilot/bwa_original.sai simulation/circular_boundary_pilot/circular_fragments_50bp.fasta
+read_001_original_boundary	4	*	0	0	*	*	0	0	TTAAATAAGACATCACGATGGATCACAGGTCTATCACCCTATTAACCACT	*
+read_002_shifted_boundary	0	NC_012920.1	7980	37	50M	*	0	0	ACCTGCGACTCCTTGACGTTGACAATCGAGTAGTACTCCCGATTGAAGCC	*	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:50
+read_003_interior_control	0	NC_012920.1	4000	37	50M	*	0	0	ATTATAATAAACACCCTCACCACTACAATCTTCCTAGGAACAACATATGA	*	XT:A:U	NM:i:0	X0:i:1	X1:i:0	XM:i:0	XO:i:0	XG:i:0	MD:Z:50

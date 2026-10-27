@@ -1,0 +1,29 @@
+=== Gargammel ===
+
+=== fragSim ===
+		    					Please note that this mode will write fastq to STDOUT
+		--trim5p	[length]				Trim [length] bases from the fragments in fastq mode
+		--circ	[REF NAME]				Assume [REF NAME] is circular
+		--seed	[int]				Use [seed] as seed for the random number generator (default random seed each execution)
+
+	Output options
+		-b	[bam out]			Write output as a BAM file (default: fasta in STDOUT)
+
+=== deamSim ===
+		-last					If matfile is used, do not use the substitution rates of the
+							last row over the rest of the molecule (default: no data = use last row)
+ Generic options:
+		--seed	[int]				Use [seed] as seed for the random number generator (default random seed each execution)
+
+ Mandatory deamination options:
+	Specify either:
+
+=== ART Illumina ===
+                  that reduce substitution sequencing errors and a negative number will shift down 
+                  quality scores that increase sequencing errors. If shifting scores by x, the error
+                  rate will be 1/(10^(x/10)) of the default profile.
+  -rs  --rndSeed  the seed for random number generator (default: system time in second)
+                  NOTE: using a fixed seed to generate two identical datasets from different runs
+  -s   --sdev     the standard deviation of DNA/RNA fragment size for paired-end simulations.
+  -sam --samout   indicate to generate SAM alignment file
+  -sp  --sepProf  indicate to use separate quality profiles for different bases (ATGC)

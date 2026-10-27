@@ -1,0 +1,7 @@
+[bwa_aln_core] convert to sequence coordinate... 0.00 sec
+[bwa_aln_core] refine gapped alignments... 0.00 sec
+[bwa_aln_core] print alignments... 0.00 sec
+[bwa_aln_core] 294 sequences have been processed.
+[main] Version: 0.7.19-r1273
+[main] CMD: bwa samse reference/rCRS_NC_012920.1.fasta alignments/circular_pmd_replicates/bwa_original_50bp_low_rep8.sai.tmp simulation/circular_pmd_replicates/reads_50bp_low_rep8.fasta.gz
+[main] Real time: 0.006 sec; CPU: 0.001 sec

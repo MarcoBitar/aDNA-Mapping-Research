@@ -1,0 +1,65 @@
+FIGURE 1 — Fragment length and post-mortem damage
+
+Mean strict full-length mapping recall for simulated ancient
+human mitochondrial DNA reads of 30, 40, 50, and 70 bp.
+Original-boundary-spanning reads were aligned to the reference
+shifted by 8,000 bp. Curves represent low, moderate, and high
+simulated post-mortem damage for BWA-aln and Bowtie2.
+Error bars indicate ±1 sample standard deviation across ten
+independently seeded damage realizations of fixed fragments.
+
+
+FIGURE 2 — Reference-boundary relocation
+
+Strict full-length mapping recall for 30 bp reads under high
+simulated post-mortem damage, grouped by genomic position
+relative to the original and shifted linearization boundaries.
+Bars show mean recall across ten damage realizations;
+error bars indicate ±1 sample standard deviation.
+Reference shifting restores mapping at the original boundary
+while relocating the boundary-associated failure to a new
+genomic position.
+
+
+FIGURE 3 — Paired effect of reference shifting
+
+Mean paired difference in strict full-length recall between
+shifted and original reference alignments under high simulated
+post-mortem damage. Positive values indicate improved recall
+after shifting. Negative values indicate reduced recall.
+Each difference compares the same simulated reads and damage
+realization. Error bars indicate ±1 sample standard deviation
+of paired differences across ten realizations.
+
+
+FIGURE 4 — Damage-associated recall loss
+
+Loss of strict full-length mapping recall relative to 100%
+for original-boundary reads aligned to the shifted reference.
+Undamaged reads constitute a single deterministic baseline.
+Low, moderate, and high PMD bars represent mean recall loss
+across ten stochastic damage realizations. No uncertainty
+bars are shown in this figure; replicate variation is
+displayed in Figure 1.
+
+
+FIGURE 5 — Bowtie2 alignment artifacts
+
+Characteristics of 721 incorrect Bowtie2 alignments involving
+reads crossing the active reference boundary under high PMD.
+Results combine ten damage realizations and both reference
+configurations. All 721 incorrect alignments contained
+insertion operations, while 381 retained the correct genomic
+start. Mapping quality was predominantly low. Incorrectness
+was defined using exact start, strand, and full-length CIGAR.
+
+
+FIGURE 6 — MAPQ filtering tradeoff
+
+Effect of minimum mapping-quality thresholds on Bowtie2
+alignments under high PMD using the original reference.
+Panel A shows strict recall for interior reads by fragment
+length. Panel B shows the number of incorrect original-boundary
+alignments retained after filtering. Counts are aggregated
+across ten damage realizations. MAPQ filtering suppresses
+incorrect alignments but can also remove correctly mapped reads.

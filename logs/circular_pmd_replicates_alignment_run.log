@@ -1,0 +1,1087 @@
+========================================
+Replicate 2 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep2.sam
+========================================
+Replicate 2 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep2.sam
+========================================
+Replicate 2 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep2.sam
+========================================
+Replicate 2 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep2.sam
+========================================
+Replicate 2 | 30bp | high | original
+========================================
+REUSED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep2.sam
+REUSED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep2.sam
+========================================
+Replicate 2 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep2.sam
+========================================
+Replicate 2 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep2.sam
+========================================
+Replicate 2 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep2.sam
+========================================
+Replicate 2 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep2.sam
+========================================
+Replicate 2 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep2.sam
+========================================
+Replicate 2 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep2.sam
+========================================
+Replicate 2 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep2.sam
+========================================
+Replicate 2 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep2.sam
+========================================
+Replicate 2 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep2.sam
+========================================
+Replicate 2 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep2.sam
+========================================
+Replicate 2 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep2.sam
+========================================
+Replicate 2 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep2.sam
+========================================
+Replicate 2 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep2.sam
+========================================
+Replicate 2 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep2.sam
+========================================
+Replicate 2 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep2.sam
+========================================
+Replicate 2 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep2.sam
+========================================
+Replicate 2 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep2.sam
+========================================
+Replicate 2 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep2.sam
+========================================
+Replicate 2 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep2.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep2.sam
+========================================
+Replicate 3 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep3.sam
+========================================
+Replicate 3 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep3.sam
+========================================
+Replicate 3 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep3.sam
+========================================
+Replicate 3 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep3.sam
+========================================
+Replicate 3 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep3.sam
+========================================
+Replicate 3 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep3.sam
+========================================
+Replicate 3 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep3.sam
+========================================
+Replicate 3 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep3.sam
+========================================
+Replicate 3 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep3.sam
+========================================
+Replicate 3 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep3.sam
+========================================
+Replicate 3 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep3.sam
+========================================
+Replicate 3 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep3.sam
+========================================
+Replicate 3 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep3.sam
+========================================
+Replicate 3 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep3.sam
+========================================
+Replicate 3 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep3.sam
+========================================
+Replicate 3 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep3.sam
+========================================
+Replicate 3 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep3.sam
+========================================
+Replicate 3 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep3.sam
+========================================
+Replicate 3 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep3.sam
+========================================
+Replicate 3 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep3.sam
+========================================
+Replicate 3 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep3.sam
+========================================
+Replicate 3 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep3.sam
+========================================
+Replicate 3 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep3.sam
+========================================
+Replicate 3 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep3.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep3.sam
+========================================
+Replicate 4 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep4.sam
+========================================
+Replicate 4 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep4.sam
+========================================
+Replicate 4 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep4.sam
+========================================
+Replicate 4 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep4.sam
+========================================
+Replicate 4 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep4.sam
+========================================
+Replicate 4 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep4.sam
+========================================
+Replicate 4 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep4.sam
+========================================
+Replicate 4 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep4.sam
+========================================
+Replicate 4 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep4.sam
+========================================
+Replicate 4 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep4.sam
+========================================
+Replicate 4 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep4.sam
+========================================
+Replicate 4 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep4.sam
+========================================
+Replicate 4 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep4.sam
+========================================
+Replicate 4 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep4.sam
+========================================
+Replicate 4 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep4.sam
+========================================
+Replicate 4 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep4.sam
+========================================
+Replicate 4 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep4.sam
+========================================
+Replicate 4 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep4.sam
+========================================
+Replicate 4 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep4.sam
+========================================
+Replicate 4 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep4.sam
+========================================
+Replicate 4 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep4.sam
+========================================
+Replicate 4 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep4.sam
+========================================
+Replicate 4 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep4.sam
+========================================
+Replicate 4 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep4.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep4.sam
+========================================
+Replicate 5 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep5.sam
+========================================
+Replicate 5 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep5.sam
+========================================
+Replicate 5 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep5.sam
+========================================
+Replicate 5 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep5.sam
+========================================
+Replicate 5 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep5.sam
+========================================
+Replicate 5 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep5.sam
+========================================
+Replicate 5 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep5.sam
+========================================
+Replicate 5 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep5.sam
+========================================
+Replicate 5 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep5.sam
+========================================
+Replicate 5 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep5.sam
+========================================
+Replicate 5 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep5.sam
+========================================
+Replicate 5 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep5.sam
+========================================
+Replicate 5 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep5.sam
+========================================
+Replicate 5 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep5.sam
+========================================
+Replicate 5 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep5.sam
+========================================
+Replicate 5 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep5.sam
+========================================
+Replicate 5 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep5.sam
+========================================
+Replicate 5 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep5.sam
+========================================
+Replicate 5 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep5.sam
+========================================
+Replicate 5 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep5.sam
+========================================
+Replicate 5 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep5.sam
+========================================
+Replicate 5 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep5.sam
+========================================
+Replicate 5 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep5.sam
+========================================
+Replicate 5 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep5.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep5.sam
+========================================
+Replicate 6 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep6.sam
+========================================
+Replicate 6 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep6.sam
+========================================
+Replicate 6 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep6.sam
+========================================
+Replicate 6 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep6.sam
+========================================
+Replicate 6 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep6.sam
+========================================
+Replicate 6 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep6.sam
+========================================
+Replicate 6 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep6.sam
+========================================
+Replicate 6 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep6.sam
+========================================
+Replicate 6 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep6.sam
+========================================
+Replicate 6 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep6.sam
+========================================
+Replicate 6 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep6.sam
+========================================
+Replicate 6 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep6.sam
+========================================
+Replicate 6 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep6.sam
+========================================
+Replicate 6 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep6.sam
+========================================
+Replicate 6 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep6.sam
+========================================
+Replicate 6 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep6.sam
+========================================
+Replicate 6 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep6.sam
+========================================
+Replicate 6 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep6.sam
+========================================
+Replicate 6 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep6.sam
+========================================
+Replicate 6 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep6.sam
+========================================
+Replicate 6 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep6.sam
+========================================
+Replicate 6 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep6.sam
+========================================
+Replicate 6 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep6.sam
+========================================
+Replicate 6 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep6.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep6.sam
+========================================
+Replicate 7 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep7.sam
+========================================
+Replicate 7 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep7.sam
+========================================
+Replicate 7 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep7.sam
+========================================
+Replicate 7 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep7.sam
+========================================
+Replicate 7 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep7.sam
+========================================
+Replicate 7 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep7.sam
+========================================
+Replicate 7 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep7.sam
+========================================
+Replicate 7 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep7.sam
+========================================
+Replicate 7 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep7.sam
+========================================
+Replicate 7 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep7.sam
+========================================
+Replicate 7 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep7.sam
+========================================
+Replicate 7 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep7.sam
+========================================
+Replicate 7 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep7.sam
+========================================
+Replicate 7 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep7.sam
+========================================
+Replicate 7 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep7.sam
+========================================
+Replicate 7 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep7.sam
+========================================
+Replicate 7 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep7.sam
+========================================
+Replicate 7 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep7.sam
+========================================
+Replicate 7 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep7.sam
+========================================
+Replicate 7 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep7.sam
+========================================
+Replicate 7 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep7.sam
+========================================
+Replicate 7 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep7.sam
+========================================
+Replicate 7 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep7.sam
+========================================
+Replicate 7 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep7.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep7.sam
+========================================
+Replicate 8 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep8.sam
+========================================
+Replicate 8 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep8.sam
+========================================
+Replicate 8 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep8.sam
+========================================
+Replicate 8 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep8.sam
+========================================
+Replicate 8 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep8.sam
+========================================
+Replicate 8 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep8.sam
+========================================
+Replicate 8 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep8.sam
+========================================
+Replicate 8 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep8.sam
+========================================
+Replicate 8 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep8.sam
+========================================
+Replicate 8 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep8.sam
+========================================
+Replicate 8 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep8.sam
+========================================
+Replicate 8 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep8.sam
+========================================
+Replicate 8 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep8.sam
+========================================
+Replicate 8 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep8.sam
+========================================
+Replicate 8 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep8.sam
+========================================
+Replicate 8 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep8.sam
+========================================
+Replicate 8 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep8.sam
+========================================
+Replicate 8 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep8.sam
+========================================
+Replicate 8 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep8.sam
+========================================
+Replicate 8 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep8.sam
+========================================
+Replicate 8 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep8.sam
+========================================
+Replicate 8 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep8.sam
+========================================
+Replicate 8 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep8.sam
+========================================
+Replicate 8 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep8.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep8.sam
+========================================
+Replicate 9 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep9.sam
+========================================
+Replicate 9 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep9.sam
+========================================
+Replicate 9 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep9.sam
+========================================
+Replicate 9 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep9.sam
+========================================
+Replicate 9 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep9.sam
+========================================
+Replicate 9 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep9.sam
+========================================
+Replicate 9 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep9.sam
+========================================
+Replicate 9 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep9.sam
+========================================
+Replicate 9 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep9.sam
+========================================
+Replicate 9 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep9.sam
+========================================
+Replicate 9 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep9.sam
+========================================
+Replicate 9 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep9.sam
+========================================
+Replicate 9 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep9.sam
+========================================
+Replicate 9 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep9.sam
+========================================
+Replicate 9 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep9.sam
+========================================
+Replicate 9 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep9.sam
+========================================
+Replicate 9 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep9.sam
+========================================
+Replicate 9 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep9.sam
+========================================
+Replicate 9 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep9.sam
+========================================
+Replicate 9 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep9.sam
+========================================
+Replicate 9 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep9.sam
+========================================
+Replicate 9 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep9.sam
+========================================
+Replicate 9 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep9.sam
+========================================
+Replicate 9 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep9.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep9.sam
+========================================
+Replicate 10 | 30bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_low_rep10.sam
+========================================
+Replicate 10 | 30bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_low_rep10.sam
+========================================
+Replicate 10 | 30bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_moderate_rep10.sam
+========================================
+Replicate 10 | 30bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_moderate_rep10.sam
+========================================
+Replicate 10 | 30bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_30bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_30bp_high_rep10.sam
+========================================
+Replicate 10 | 30bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_30bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_30bp_high_rep10.sam
+========================================
+Replicate 10 | 40bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_low_rep10.sam
+========================================
+Replicate 10 | 40bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_low_rep10.sam
+========================================
+Replicate 10 | 40bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_moderate_rep10.sam
+========================================
+Replicate 10 | 40bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_moderate_rep10.sam
+========================================
+Replicate 10 | 40bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_40bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_40bp_high_rep10.sam
+========================================
+Replicate 10 | 40bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_40bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_40bp_high_rep10.sam
+========================================
+Replicate 10 | 50bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_low_rep10.sam
+========================================
+Replicate 10 | 50bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_low_rep10.sam
+========================================
+Replicate 10 | 50bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_moderate_rep10.sam
+========================================
+Replicate 10 | 50bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_moderate_rep10.sam
+========================================
+Replicate 10 | 50bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_50bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_50bp_high_rep10.sam
+========================================
+Replicate 10 | 50bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_50bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_50bp_high_rep10.sam
+========================================
+Replicate 10 | 70bp | low | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_low_rep10.sam
+========================================
+Replicate 10 | 70bp | low | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_low_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_low_rep10.sam
+========================================
+Replicate 10 | 70bp | moderate | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_moderate_rep10.sam
+========================================
+Replicate 10 | 70bp | moderate | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_moderate_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_moderate_rep10.sam
+========================================
+Replicate 10 | 70bp | high | original
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_original_70bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_original_70bp_high_rep10.sam
+========================================
+Replicate 10 | 70bp | high | shifted
+========================================
+GENERATED: alignments/circular_pmd_replicates/bwa_shifted_70bp_high_rep10.sam
+GENERATED: alignments/circular_pmd_replicates/bowtie2_shifted_70bp_high_rep10.sam
+
+========== REPLICATED ALIGNMENT VALIDATION ==========
+Alignment configurations: 432
+Newly generated: 430
+Reused: 2
+Primary alignment records: 120528
+ALL 432 REPLICATED ALIGNMENTS COMPLETED SUCCESSFULLY

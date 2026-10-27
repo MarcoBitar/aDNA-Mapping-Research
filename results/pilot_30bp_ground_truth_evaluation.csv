@@ -1,0 +1,3 @@
+mapper,total_reads,mapped,correct,incorrect,unmapped,mapping_rate,correct_mapping_rate,precision_among_mapped
+BWA-aln,100,100,100,0,0,1.0,1.0,1.0
+Bowtie2,100,100,100,0,0,1.0,1.0,1.0

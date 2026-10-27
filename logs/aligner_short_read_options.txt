@@ -1,0 +1,84 @@
+========== BWA-ALN OPTIONS ==========
+
+Usage:   bwa aln [options] <prefix> <in.fq>
+
+Options: -n NUM    max #diff (int) or missing prob under 0.02 err rate (float) [0.04]
+         -o INT    maximum number or fraction of gap opens [1]
+         -e INT    maximum number of gap extensions, -1 for disabling long gaps [-1]
+         -i INT    do not put an indel within INT bp towards the ends [5]
+         -d INT    maximum occurrences for extending a long deletion [10]
+         -l INT    seed length [32]
+         -k INT    maximum differences in the seed [2]
+         -m INT    maximum entries in the queue [2000000]
+         -t INT    number of threads [1]
+         -M INT    mismatch penalty [3]
+         -O INT    gap open penalty [11]
+         -E INT    gap extension penalty [4]
+         -R INT    stop searching when there are >INT equally best hits [30]
+         -q INT    quality threshold for read trimming down to 35bp [0]
+         -f FILE   file to write output to instead of stdout
+         -B INT    length of barcode
+         -L        log-scaled gap penalty for long deletions
+         -N        non-iterative mode: search for all n-difference hits (slooow)
+         -I        the input is in the Illumina 1.3+ FASTQ-like format
+         -b        the input read file is in the BAM format
+         -0        use single-end reads only (effective with -b)
+         -1        use the 1st read in a pair (effective with -b)
+         -2        use the 2nd read in a pair (effective with -b)
+         -Y        filter Casava-filtered sequences
+
+
+========== BOWTIE2 ALIGNMENT OPTIONS ==========
+ Alignment:
+  -N <int>           max # mismatches in seed alignment; can be 0 or 1 (0)
+  -L <int>           length of seed substrings; must be >3, <32 (22)
+  -i <func>          interval between seed substrings w/r/t read len (S,1,1.15)
+  --n-ceil <func>    func for max # non-A/C/G/Ts permitted in aln (L,0,0.15)
+  --dpad <int>       include <int> extra ref chars on sides of DP table (15)
+  --gbar <int>       disallow gaps within <int> nucs of read extremes (4)
+  --ignore-quals     treat all quality values as 30 on Phred scale (off)
+  --nofw             do not align forward (original) version of read (off)
+  --norc             do not align reverse-complement version of read (off)
+  --no-1mm-upfront   do not allow 1 mismatch alignments before attempting to
+                     scan for the optimal seeded alignments
+  --end-to-end       entire read must align; no clipping (on)
+   OR
+  --local            local alignment; ends might be soft clipped (off)
+
+ Scoring:
+  --ma <int>         match bonus (0 for --end-to-end, 2 for --local) 
+  --mp <int>         max penalty for mismatch; lower qual = lower penalty (6)
+  --np <int>         penalty for non-A/C/G/Ts in read/ref (1)
+  --rdg <int>,<int>  read gap open, extend penalties (5,3)
+  --rfg <int>,<int>  reference gap open, extend penalties (5,3)
+  --score-min <func> min acceptable alignment score w/r/t read length
+
+========== BOWTIE2 SEED OPTIONS ==========
+  For --end-to-end:
+   --very-fast            -D 5 -R 1 -N 0 -L 22 -i S,0,2.50
+   --fast                 -D 10 -R 2 -N 0 -L 22 -i S,0,2.50
+   --sensitive            -D 15 -R 2 -N 0 -L 22 -i S,1,1.15 (default)
+   --very-sensitive       -D 20 -R 3 -N 0 -L 20 -i S,1,0.50
+
+  For --local:
+   --very-fast-local      -D 5 -R 1 -N 0 -L 25 -i S,1,2.00
+   --fast-local           -D 10 -R 2 -N 0 -L 22 -i S,1,1.75
+   --sensitive-local      -D 15 -R 2 -N 0 -L 20 -i S,1,0.75 (default)
+   --very-sensitive-local -D 20 -R 3 -N 0 -L 20 -i S,1,0.50
+
+ Alignment:
+  -N <int>           max # mismatches in seed alignment; can be 0 or 1 (0)
+  -L <int>           length of seed substrings; must be >3, <32 (22)
+  -i <func>          interval between seed substrings w/r/t read len (S,1,1.15)
+  --n-ceil <func>    func for max # non-A/C/G/Ts permitted in aln (L,0,0.15)
+  --dpad <int>       include <int> extra ref chars on sides of DP table (15)
+--
+  --end-to-end       entire read must align; no clipping (on)
+   OR
+  --local            local alignment; ends might be soft clipped (off)
+
+ Scoring:
+  --ma <int>         match bonus (0 for --end-to-end, 2 for --local) 
+  --mp <int>         max penalty for mismatch; lower qual = lower penalty (6)
+  --np <int>         penalty for non-A/C/G/Ts in read/ref (1)
+  --rdg <int>,<int>  read gap open, extend penalties (5,3)

@@ -1,0 +1,168 @@
+========== SCRIPT INITIALIZATION ==========
+#!/usr/bin/env perl
+
+
+use strict;
+use warnings;
+use Getopt::Long;
+use Cwd 'abs_path';
+use List::Util qw(min max);
+use Scalar::Util qw(looks_like_number);
+use Data::Dumper;
+use File::Copy;
+use Time::HiRes qw/ time sleep /;
+
+my $mock =0;
+
+
+sub checkDeamParam{
+  my ($briggs,$matfile) = @_;
+
+
+  if ( (defined $matfile) ) {
+
+    if ( !(-e $matfile."5.dat")) {
+      die "Matrix file ".$matfile."5.dat does not exists\n";
+    }
+
+    if ( !(-e $matfile."3.dat")) {
+      die "Matrix file ".$matfile."3.dat does not exists\n";
+    }
+
+  }
+
+  if ( (defined $briggs) ) {
+    my @arr=split(",",$briggs);
+
+    if ($#arr != 3) {
+      die "The option for -damage must be 4 comma-delimited numbers, found ".($#arr+1)." parameters in ".$briggs."\n";
+    }
+
+    if (!looks_like_number($arr[0])) {
+      die "The option for -damage must be 4 comma-delimited numbers, parameter 1 :".$arr[0]." must be a number\n";
+    }
+    if (!looks_like_number($arr[1])) {
+      die "The option for -damage must be 4 comma-delimited numbers, parameter 2 :".$arr[1]." must be a number\n";
+    }
+    if (!looks_like_number($arr[2])) {
+      die "The option for -damage must be 4 comma-delimited numbers, parameter 3 :".$arr[2]." must be a number\n";
+    }
+    if (!looks_like_number($arr[3])) {
+      die "The option for -damage must be 4 comma-delimited numbers, parameter 4 :".$arr[3]." must be a number\n";
+    }
+  }
+
+
+  if ( (defined $matfile) &&
+       (defined $briggs)  ) {
+    die "Specify either -matfile or -damage but not both\n";
+  }
+
+}
+
+sub copycmd{
+  my ($source,$destination) = @_;
+  print STDERR "copying  ". $source." to ".$destination."\n";
+  if($mock != 1){
+    copy( $source,$destination ) or die "Copy file failed: $!";
+  }
+}
+
+
+sub runcmd{
+  my ($cmdtorun) = @_;
+
+  print STDERR "running cmd ". $cmdtorun."\n";
+  if($mock != 1){
+    my @argstorun = ( "bash", "-c", $cmdtorun );
+
+    if(system(@argstorun) != 0){
+      die "system  cmd $cmdtorun failed: $?"
+    }else{
+    }
+  }
+
+}
+
+sub runcmdforce{
+  my ($cmdtorun) = @_;
+
+  print STDERR "running cmd ". $cmdtorun."\n";
+
+  my @argstorun = ( "bash", "-c", $cmdtorun );
+
+  if (system(@argstorun) != 0) {
+    die "system  cmd $cmdtorun failed: $?"
+  } else {
+  }
+}
+
+
+
+
+
+
+sub runcmdReturnOutput {
+  my $command = join ' ', @_;
+  reverse ($_ = qx{$command 2>&1}, $? >> 8);
+}
+
+sub listdir {
+  my ($dirtolist) = @_;
+  my @arrayToReturn;
+  opendir(DIR,$dirtolist) or die "Cannot open directory ".$!;
+  while(my $dir = readdir(DIR)){
+    if($dir eq "."){
+      next;
+
+========== ARGUMENT PARSING LOCATIONS ==========
+6:use Getopt::Long;
+250:my $fraglength=35;
+305:		-l\t[length]\t\tGenerate fragments of fixed length  (default: ".$fraglength.")
+415:my $outputprefix;
+438:my $briggse;
+458:my $dirWithChr = $ARGV[$#ARGV];
+460:usage() if ( @ARGV < 1 or
+461:	     ! GetOptions('help|?' => \$help, 'mock' => \$mock, 'methyl' => \$methyl, 'uniq' => \$uniq, 'se' => \$se, 'ss=s' => \$ss, 'distmis=i' => \$distmis, 'misince=s' => \$misince,'misincb=s' => \$misincb,'misincc=s' => \$misincc, 'comp=s' => \$comp,'mapdamage=s{2}' => \@mapdamage, 'mapdamagee=s{2}' => \@mapdamagee, 'mapdamageb=s{2}' => \@mapdamageb, 'mapdamagec=s{2}' => \@mapdamagec,'matfile=s' => \$matfile, 'damage=s' => \$briggs,'matfilee=s' => \$matfilee,'matfilenonmeth=s' => \$matfilenonmeth, ,'matfilemeth=s' => \$matfilemeth, 'damagee=s' => \$briggse,'matfileb=s' => \$matfileb, 'damageb=s' => \$briggsb,'matfilec=s' => \$matfilec, 'damagec=s' => \$briggsc,'o=s' => \$outputprefix, 'n=i' => \$numberOfFragments,'l=i' => \$fraglength, 's=s' => \$filefragsize, 'f=s' => \$filefragfreqsize, 'loc=s' => \$loc, 'fa=s' => \$fa, 'sa=s' => \$sa, 'rl=s' => \$rl, 'scale=s' => \$scale, 'c=f' => \$coverage, 'minsize=i' => \$minsize,'maxsize=i' => \$maxsize,'qs=i' => \$qs,'qs2=i' => \$qs2)
+612:checkDeamParam($briggse,$matfilee);
+625:       (defined $briggse )  ) {
+646:    $briggse = $briggs;
+731:  if($fraglength!=35){
+737:  if($fraglength!=35){
+787:if( !(defined $outputprefix) ){
+788:  $outputprefix = $dirWithChr."simadna";
+1224:      $averageSize = $fraglength;
+1500:	    $cmd1 .= " -l ".$fraglength;
+1517:      $cmd1 .= "  ".$outputprefix.".e.fa.gz";
+1539:	    $cmd2 .= " -l ".$fraglength." ";
+1548:      $cmd2.=" ".$arrayofFilesendo[1]." |gzip >> ".$outputprefix.".e.fa.gz";
+1582:	    $cmd1 .= " -l ".$fraglength." ";
+1586:      $cmd1 .= "  ".$arrayofFilesendo[0]." | gzip > ".$outputprefix.".e.fa.gz";
+1592:  my $cmd1="touch ".$outputprefix.".e.fa.gz";
+1623:	  $cmd1 .= " -l ".$fraglength." ";
+1637:    $cmd1.="".$outputprefix.".c.fa.gz";
+1641:  my $cmd1="touch ".$outputprefix.".c.fa.gz";
+1670:	  $cmd1 .= " -l ".$fraglength." ";
+1683:    $cmd1 .= " ".$outputprefix.".b.fa.gz";
+1687:  my $cmd1="touch ".$outputprefix.".b.fa.gz";
+1704:    (defined $briggse)
+1721:  if( (defined $briggse) ){
+1722:    $cmde .= " -damage ".$briggse." ";
+1729:  $cmde.=" ".$outputprefix.".e.fa.gz  | gzip > ".$outputprefix."_d.fa.gz";
+1734:  my $cmde= "gzip -c -d  ".$outputprefix.".e.fa.gz  | gzip > ".$outputprefix."_d.fa.gz";
+1773:  $cmdb.=" ".$outputprefix.".b.fa.gz  |gzip >> ".$outputprefix."_d.fa.gz";
+1777:  my $cmdb= "gzip -c -d  ".$outputprefix.".b.fa.gz  | gzip >> ".$outputprefix."_d.fa.gz";
+1822:  $cmdc.=" ".$outputprefix.".c.fa.gz  |gzip >> ".$outputprefix."_d.fa.gz";
+1827:  my $cmdec= "gzip -c -d  ".$outputprefix.".c.fa.gz  | gzip >> ".$outputprefix."_d.fa.gz";
+1843:  $cmdad .= " -arts ".$outputprefix."_a.fa";
+1845:  $cmdad .= " -artp ".$outputprefix."_a.fa";
+1847:$cmdad .= "  ".$outputprefix."_d.fa.gz";
+1862:$cmdsq .= " -i ".$outputprefix."_a.fa ";
+1868:$cmdsq .= " -o ".$outputprefix."_s";
+1873:$cmdzip = "gzip -f ".$outputprefix."_a.fa";
+1877:  $cmdzip = "gzip -f ".$outputprefix."_s.fq";
+1879:  print STDERR "Single-end reads available here: ".$outputprefix."_s.fq.gz\n";
+1881:  $cmdzip = "gzip -f ".$outputprefix."_s1.fq";
+1883:  $cmdzip = "gzip -f ".$outputprefix."_s2.fq";
+1886:  print STDERR "Paired-end forward reads available here: ".$outputprefix."_s1.fq.gz\n";
+1887:  print STDERR "Paired-end reverse reads available here: ".$outputprefix."_s2.fq.gz\n";

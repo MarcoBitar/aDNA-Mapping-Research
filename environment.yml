@@ -1,0 +1,14 @@
+name: adna_mapping
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - bwa
+  - samtools
+  - bowtie2
+  - gargammel=1.1.4
+  - cutadapt
+  - pysam
+  - matplotlib
+  - numpy
+  - pandas

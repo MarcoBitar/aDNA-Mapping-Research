@@ -1,0 +1,15 @@
+========== FILE SIZES ==========
+-rw-r--r-- 1 Marco_Bitar Marco_Bitar    0 Oct 12 22:26 simulation/repro_test_A.b.fa.gz
+-rw-r--r-- 1 Marco_Bitar Marco_Bitar    0 Oct 12 22:26 simulation/repro_test_A.c.fa.gz
+-rw-r--r-- 1 Marco_Bitar Marco_Bitar 2.6K Oct 12 22:26 simulation/repro_test_A.e.fa.gz
+-rw-r--r-- 1 Marco_Bitar Marco_Bitar 2.7K Oct 12 22:26 simulation/repro_test_A_d.fa.gz
+-rw-r--r-- 1 Marco_Bitar Marco_Bitar 5.1K Oct 12 22:26 simulation/repro_test_A_s.fq.gz
+
+========== GZIP INTEGRITY ==========
+PASS: simulation/repro_test_A.e.fa.gz
+PASS: simulation/repro_test_A_d.fa.gz
+PASS: simulation/repro_test_A_s.fq.gz
+
+========== PLACEHOLDER FILE SIZES ==========
+simulation/repro_test_A.b.fa.gz : 0 bytes
+simulation/repro_test_A.c.fa.gz : 0 bytes

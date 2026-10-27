@@ -1,0 +1,28 @@
+Did not find multiple directories for the different cells therefore using 1 cell
+Found endogenous file  simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta
+Found endogenous index simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta.fai
+
+Found 0 bp bacterial, 0 bp contaminant, 16569 bp endogenous
+Computed average size: 50bp
+We will generate: 
+
+10	total fragments
+--------------------------------------------
+10	( 100.00%) 	endogenous fragments
+--------------------------------------------
+0	( 0.00%) 	contaminant fragments
+--------------------------------------------
+0	( 0.00%) 	bacterial fragments
+--------------------------------------------
+running cmd fragSim -tag e -n 10 -m 0  -M 1000  -l 50  --seed 101   simulation/gargammel_input/endo/rCRS_NC_012920.1.fasta | gzip > simulation/seed_test.e.fa.gz
+running cmd touch simulation/seed_test.c.fa.gz
+running cmd touch simulation/seed_test.b.fa.gz
+running cmd gzip -c -d  simulation/seed_test.e.fa.gz  | gzip > simulation/seed_test_d.fa.gz
+running cmd gzip -c -d  simulation/seed_test.b.fa.gz  | gzip >> simulation/seed_test_d.fa.gz
+running cmd gzip -c -d  simulation/seed_test.c.fa.gz  | gzip >> simulation/seed_test_d.fa.gz
+running cmd adptSim  -f AGATCGGAAGAGCACACGTCTGAACTCCAGTCACCGATTCGATCTCGTATGCCGTCTTCTGCTTG  -s AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATTT  -l 75  -arts simulation/seed_test_a.fa  simulation/seed_test_d.fa.gz
+running cmd art_illumina -ss HS25 -amp -na      -i simulation/seed_test_a.fa  -l 75  -c 1  -qs  0  -qs2 0  -o simulation/seed_test_s
+running cmd gzip -f simulation/seed_test_a.fa
+running cmd gzip -f simulation/seed_test_s.fq
+Single-end reads available here: simulation/seed_test_s.fq.gz
+Program finished successfully

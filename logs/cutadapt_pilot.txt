@@ -1,0 +1,31 @@
+This is cutadapt 5.2 with Python 3.11.17
+Command line parameters: -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCACCGATTCGATCTCGTATGCCGTCTTCTGCTTG -e 0.1 -O 5 -o simulation/pilot_check_trimmed.fq.gz simulation/pilot_check_s.fq.gz
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:                      10
+Reads with adapters:                        10 (100.0%)
+Reads written (passing filters):            10 (100.0%)
+
+Total basepairs processed:           750 bp
+Total written (filtered):            500 bp (66.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCACCGATTCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 10 times
+
+Minimum overlap: 5
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-65 bp: 6
+
+Bases preceding removed adapters:
+  A: 20.0%
+  C: 20.0%
+  G: 30.0%
+  T: 30.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	10	0.0	2	10

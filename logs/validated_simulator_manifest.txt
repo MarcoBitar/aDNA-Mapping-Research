@@ -1,0 +1,23 @@
+========== VALIDATED SIMULATOR ==========
+2026-10-12T22:35:14+03:00
+
+========== ORIGINAL GARGAMMEL ==========
+f3d4a4a8de15d74cbe044b83ddb8916450cf544a147b07df01e0797d9dd80517  /home/Marco_Bitar/miniforge3/envs/adna_mapping/bin/gargammel
+
+========== MODIFIED GARGAMMEL ==========
+d1ab33f9f6a6e494fca4d9b100435d33f0181a156f360b0b1871f383f1337e2c  scripts/gargammel_controlled/gargammel_seeded.pl
+
+========== PERL SYNTAX ==========
+scripts/gargammel_controlled/gargammel_seeded.pl syntax OK
+
+========== VALIDATION RESULT ==========
+100 simulated reads
+Fragment seed: 101
+Damage seed: 202
+ART seed: 303
+Fragment length: 50 bp
+Read length: 75 bp
+Briggs parameters: 0.03,0.3,0.01,0.1
+All three decompressed output comparisons: IDENTICAL
+All five gzip integrity checks: PASS
+Unexpected-end-of-file gzip warnings: NONE

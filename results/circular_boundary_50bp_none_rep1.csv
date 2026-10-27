@@ -1,0 +1,13 @@
+aligner,reference,group,total,correct,incorrect,unmapped,recall,precision
+BWA-aln,original,original_boundary,1000,0,0,1000,0.0,NA
+BWA-aln,original,shifted_boundary,1000,1000,0,0,1.0,1.0
+BWA-aln,original,interior,1000,1000,0,0,1.0,1.0
+BWA-aln,shifted,original_boundary,1000,1000,0,0,1.0,1.0
+BWA-aln,shifted,shifted_boundary,1000,0,0,1000,0.0,NA
+BWA-aln,shifted,interior,1000,1000,0,0,1.0,1.0
+Bowtie2,original,original_boundary,1000,0,156,844,0.0,0.0
+Bowtie2,original,shifted_boundary,1000,1000,0,0,1.0,1.0
+Bowtie2,original,interior,1000,1000,0,0,1.0,1.0
+Bowtie2,shifted,original_boundary,1000,1000,0,0,1.0,1.0
+Bowtie2,shifted,shifted_boundary,1000,0,107,893,0.0,0.0
+Bowtie2,shifted,interior,1000,1000,0,0,1.0,1.0

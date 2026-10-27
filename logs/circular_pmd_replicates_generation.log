@@ -1,0 +1,329 @@
+Generating rep=2 length=30 damage=low seed=40301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 2 30bp low      reads=174 damaged= 12 substitutions= 12
+Generating rep=2 length=30 damage=moderate seed=40302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 2 30bp moderate reads=174 damaged= 29 substitutions= 34
+REUSED    rep= 2 30bp high     reads=174 damaged= 62 substitutions= 85
+Generating rep=2 length=40 damage=low seed=40401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 2 40bp low      reads=234 damaged= 17 substitutions= 18
+Generating rep=2 length=40 damage=moderate seed=40402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 2 40bp moderate reads=234 damaged= 43 substitutions= 49
+Generating rep=2 length=40 damage=high seed=40403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 2 40bp high     reads=234 damaged= 91 substitutions=127
+Generating rep=2 length=50 damage=low seed=40501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 2 50bp low      reads=294 damaged= 24 substitutions= 25
+Generating rep=2 length=50 damage=moderate seed=40502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 2 50bp moderate reads=294 damaged= 55 substitutions= 65
+Generating rep=2 length=50 damage=high seed=40503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 2 50bp high     reads=294 damaged=125 substitutions=176
+Generating rep=2 length=70 damage=low seed=40701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 2 70bp low      reads=414 damaged= 62 substitutions= 66
+Generating rep=2 length=70 damage=moderate seed=40702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 2 70bp moderate reads=414 damaged= 97 substitutions=110
+Generating rep=2 length=70 damage=high seed=40703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 2 70bp high     reads=414 damaged=242 substitutions=361
+Generating rep=3 length=30 damage=low seed=50301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 3 30bp low      reads=174 damaged= 17 substitutions= 17
+Generating rep=3 length=30 damage=moderate seed=50302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 3 30bp moderate reads=174 damaged= 26 substitutions= 30
+Generating rep=3 length=30 damage=high seed=50303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 3 30bp high     reads=174 damaged= 62 substitutions= 79
+Generating rep=3 length=40 damage=low seed=50401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 3 40bp low      reads=234 damaged= 23 substitutions= 26
+Generating rep=3 length=40 damage=moderate seed=50402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 3 40bp moderate reads=234 damaged= 37 substitutions= 41
+Generating rep=3 length=40 damage=high seed=50403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 3 40bp high     reads=234 damaged=105 substitutions=138
+Generating rep=3 length=50 damage=low seed=50501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 3 50bp low      reads=294 damaged= 26 substitutions= 26
+Generating rep=3 length=50 damage=moderate seed=50502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 3 50bp moderate reads=294 damaged= 59 substitutions= 72
+Generating rep=3 length=50 damage=high seed=50503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 3 50bp high     reads=294 damaged=138 substitutions=188
+Generating rep=3 length=70 damage=low seed=50701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 3 70bp low      reads=414 damaged= 43 substitutions= 44
+Generating rep=3 length=70 damage=moderate seed=50702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 3 70bp moderate reads=414 damaged=106 substitutions=122
+Generating rep=3 length=70 damage=high seed=50703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 3 70bp high     reads=414 damaged=233 substitutions=340
+Generating rep=4 length=30 damage=low seed=60301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 4 30bp low      reads=174 damaged=  5 substitutions=  5
+Generating rep=4 length=30 damage=moderate seed=60302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 4 30bp moderate reads=174 damaged= 28 substitutions= 32
+Generating rep=4 length=30 damage=high seed=60303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 4 30bp high     reads=174 damaged= 62 substitutions= 89
+Generating rep=4 length=40 damage=low seed=60401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 4 40bp low      reads=234 damaged= 21 substitutions= 22
+Generating rep=4 length=40 damage=moderate seed=60402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 4 40bp moderate reads=234 damaged= 39 substitutions= 44
+Generating rep=4 length=40 damage=high seed=60403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 4 40bp high     reads=234 damaged=101 substitutions=137
+Generating rep=4 length=50 damage=low seed=60501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 4 50bp low      reads=294 damaged= 36 substitutions= 39
+Generating rep=4 length=50 damage=moderate seed=60502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 4 50bp moderate reads=294 damaged= 56 substitutions= 60
+Generating rep=4 length=50 damage=high seed=60503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 4 50bp high     reads=294 damaged=144 substitutions=199
+Generating rep=4 length=70 damage=low seed=60701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 4 70bp low      reads=414 damaged= 47 substitutions= 53
+Generating rep=4 length=70 damage=moderate seed=60702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 4 70bp moderate reads=414 damaged= 92 substitutions=102
+Generating rep=4 length=70 damage=high seed=60703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 4 70bp high     reads=414 damaged=220 substitutions=331
+Generating rep=5 length=30 damage=low seed=70301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 5 30bp low      reads=174 damaged= 14 substitutions= 15
+Generating rep=5 length=30 damage=moderate seed=70302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 5 30bp moderate reads=174 damaged= 23 substitutions= 25
+Generating rep=5 length=30 damage=high seed=70303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 5 30bp high     reads=174 damaged= 54 substitutions= 69
+Generating rep=5 length=40 damage=low seed=70401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 5 40bp low      reads=234 damaged= 18 substitutions= 18
+Generating rep=5 length=40 damage=moderate seed=70402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 5 40bp moderate reads=234 damaged= 32 substitutions= 35
+Generating rep=5 length=40 damage=high seed=70403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 5 40bp high     reads=234 damaged=103 substitutions=140
+Generating rep=5 length=50 damage=low seed=70501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 5 50bp low      reads=294 damaged= 33 substitutions= 38
+Generating rep=5 length=50 damage=moderate seed=70502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 5 50bp moderate reads=294 damaged= 67 substitutions= 81
+Generating rep=5 length=50 damage=high seed=70503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 5 50bp high     reads=294 damaged=124 substitutions=171
+Generating rep=5 length=70 damage=low seed=70701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 5 70bp low      reads=414 damaged= 58 substitutions= 62
+Generating rep=5 length=70 damage=moderate seed=70702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 5 70bp moderate reads=414 damaged=116 substitutions=132
+Generating rep=5 length=70 damage=high seed=70703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 5 70bp high     reads=414 damaged=223 substitutions=331
+Generating rep=6 length=30 damage=low seed=80301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 6 30bp low      reads=174 damaged= 22 substitutions= 22
+Generating rep=6 length=30 damage=moderate seed=80302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 6 30bp moderate reads=174 damaged= 22 substitutions= 27
+Generating rep=6 length=30 damage=high seed=80303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 6 30bp high     reads=174 damaged= 69 substitutions= 89
+Generating rep=6 length=40 damage=low seed=80401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 6 40bp low      reads=234 damaged= 12 substitutions= 12
+Generating rep=6 length=40 damage=moderate seed=80402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 6 40bp moderate reads=234 damaged= 38 substitutions= 42
+Generating rep=6 length=40 damage=high seed=80403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 6 40bp high     reads=234 damaged= 98 substitutions=141
+Generating rep=6 length=50 damage=low seed=80501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 6 50bp low      reads=294 damaged= 32 substitutions= 36
+Generating rep=6 length=50 damage=moderate seed=80502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 6 50bp moderate reads=294 damaged= 63 substitutions= 72
+Generating rep=6 length=50 damage=high seed=80503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 6 50bp high     reads=294 damaged=133 substitutions=196
+Generating rep=6 length=70 damage=low seed=80701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 6 70bp low      reads=414 damaged= 51 substitutions= 55
+Generating rep=6 length=70 damage=moderate seed=80702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 6 70bp moderate reads=414 damaged= 95 substitutions=108
+Generating rep=6 length=70 damage=high seed=80703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 6 70bp high     reads=414 damaged=217 substitutions=319
+Generating rep=7 length=30 damage=low seed=90301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 7 30bp low      reads=174 damaged= 14 substitutions= 14
+Generating rep=7 length=30 damage=moderate seed=90302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 7 30bp moderate reads=174 damaged= 27 substitutions= 33
+Generating rep=7 length=30 damage=high seed=90303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 7 30bp high     reads=174 damaged= 74 substitutions= 92
+Generating rep=7 length=40 damage=low seed=90401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 7 40bp low      reads=234 damaged= 31 substitutions= 32
+Generating rep=7 length=40 damage=moderate seed=90402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 7 40bp moderate reads=234 damaged= 27 substitutions= 31
+Generating rep=7 length=40 damage=high seed=90403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 7 40bp high     reads=234 damaged=109 substitutions=153
+Generating rep=7 length=50 damage=low seed=90501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 7 50bp low      reads=294 damaged= 33 substitutions= 35
+Generating rep=7 length=50 damage=moderate seed=90502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 7 50bp moderate reads=294 damaged= 59 substitutions= 72
+Generating rep=7 length=50 damage=high seed=90503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 7 50bp high     reads=294 damaged=142 substitutions=205
+Generating rep=7 length=70 damage=low seed=90701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 7 70bp low      reads=414 damaged= 53 substitutions= 59
+Generating rep=7 length=70 damage=moderate seed=90702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 7 70bp moderate reads=414 damaged=106 substitutions=133
+Generating rep=7 length=70 damage=high seed=90703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 7 70bp high     reads=414 damaged=237 substitutions=347
+Generating rep=8 length=30 damage=low seed=100301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 8 30bp low      reads=174 damaged= 17 substitutions= 18
+Generating rep=8 length=30 damage=moderate seed=100302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 8 30bp moderate reads=174 damaged= 26 substitutions= 26
+Generating rep=8 length=30 damage=high seed=100303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 8 30bp high     reads=174 damaged= 75 substitutions= 90
+Generating rep=8 length=40 damage=low seed=100401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 8 40bp low      reads=234 damaged= 20 substitutions= 22
+Generating rep=8 length=40 damage=moderate seed=100402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 8 40bp moderate reads=234 damaged= 42 substitutions= 49
+Generating rep=8 length=40 damage=high seed=100403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 8 40bp high     reads=234 damaged=100 substitutions=135
+Generating rep=8 length=50 damage=low seed=100501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 8 50bp low      reads=294 damaged= 22 substitutions= 24
+Generating rep=8 length=50 damage=moderate seed=100502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 8 50bp moderate reads=294 damaged= 58 substitutions= 63
+Generating rep=8 length=50 damage=high seed=100503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 8 50bp high     reads=294 damaged=134 substitutions=206
+Generating rep=8 length=70 damage=low seed=100701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 8 70bp low      reads=414 damaged= 43 substitutions= 47
+Generating rep=8 length=70 damage=moderate seed=100702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 8 70bp moderate reads=414 damaged=100 substitutions=112
+Generating rep=8 length=70 damage=high seed=100703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 8 70bp high     reads=414 damaged=227 substitutions=331
+Generating rep=9 length=30 damage=low seed=110301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 9 30bp low      reads=174 damaged= 13 substitutions= 14
+Generating rep=9 length=30 damage=moderate seed=110302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 9 30bp moderate reads=174 damaged= 25 substitutions= 29
+Generating rep=9 length=30 damage=high seed=110303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep= 9 30bp high     reads=174 damaged= 61 substitutions= 76
+Generating rep=9 length=40 damage=low seed=110401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 9 40bp low      reads=234 damaged= 20 substitutions= 22
+Generating rep=9 length=40 damage=moderate seed=110402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 9 40bp moderate reads=234 damaged= 36 substitutions= 36
+Generating rep=9 length=40 damage=high seed=110403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep= 9 40bp high     reads=234 damaged=111 substitutions=138
+Generating rep=9 length=50 damage=low seed=110501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 9 50bp low      reads=294 damaged= 27 substitutions= 28
+Generating rep=9 length=50 damage=moderate seed=110502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 9 50bp moderate reads=294 damaged= 55 substitutions= 59
+Generating rep=9 length=50 damage=high seed=110503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep= 9 50bp high     reads=294 damaged=140 substitutions=203
+Generating rep=9 length=70 damage=low seed=110701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 9 70bp low      reads=414 damaged= 46 substitutions= 51
+Generating rep=9 length=70 damage=moderate seed=110702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 9 70bp moderate reads=414 damaged=104 substitutions=120
+Generating rep=9 length=70 damage=high seed=110703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep= 9 70bp high     reads=414 damaged=220 substitutions=330
+Generating rep=10 length=30 damage=low seed=120301
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep=10 30bp low      reads=174 damaged= 20 substitutions= 23
+Generating rep=10 length=30 damage=moderate seed=120302
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep=10 30bp moderate reads=174 damaged= 27 substitutions= 31
+Generating rep=10 length=30 damage=high seed=120303
+Program deamSim terminated succesfully, wrote 174 sequences
+GENERATED rep=10 30bp high     reads=174 damaged= 59 substitutions= 78
+Generating rep=10 length=40 damage=low seed=120401
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep=10 40bp low      reads=234 damaged= 18 substitutions= 19
+Generating rep=10 length=40 damage=moderate seed=120402
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep=10 40bp moderate reads=234 damaged= 35 substitutions= 38
+Generating rep=10 length=40 damage=high seed=120403
+Program deamSim terminated succesfully, wrote 234 sequences
+GENERATED rep=10 40bp high     reads=234 damaged= 96 substitutions=126
+Generating rep=10 length=50 damage=low seed=120501
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep=10 50bp low      reads=294 damaged= 24 substitutions= 27
+Generating rep=10 length=50 damage=moderate seed=120502
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep=10 50bp moderate reads=294 damaged= 52 substitutions= 61
+Generating rep=10 length=50 damage=high seed=120503
+Program deamSim terminated succesfully, wrote 294 sequences
+GENERATED rep=10 50bp high     reads=294 damaged=141 substitutions=205
+Generating rep=10 length=70 damage=low seed=120701
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep=10 70bp low      reads=414 damaged= 51 substitutions= 55
+Generating rep=10 length=70 damage=moderate seed=120702
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep=10 70bp moderate reads=414 damaged=110 substitutions=130
+Generating rep=10 length=70 damage=high seed=120703
+Program deamSim terminated succesfully, wrote 414 sequences
+GENERATED rep=10 70bp high     reads=414 damaged=215 substitutions=318
+
+========== REPLICATION COMPLETE ==========
+Generated: 107
+Reused: 1
+Validated datasets: 108
+Manifest: simulation/circular_pmd_replicates/damage_replicates_manifest.tsv
+ALL REPLICATES VALIDATED

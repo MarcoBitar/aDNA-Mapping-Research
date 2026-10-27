@@ -1,0 +1,239 @@
+========== FRAGMENT SIMULATION ==========
+########################
+#                      #
+#  Calling fragSim     #
+#                      #
+########################
+
+#SELECTING ENDOGENOUS FRAGMENTS
+if ($#arrayofFilesendo != -1 && $numberOfFragmentsE>0) {
+  my $firstCmdFrag=1;
+  if ($multiCellMode) {
+  }else{
+    $multiCellModeMAX=0;
+  }
+
+  for(my $i=0;$i<=$multiCellModeMAX;$i++) {
+    if ($multiCellMode) {
+      my @at_ = @{ $arrayOfEndoCellFasta[ $i ] };
+      $numberOfFragmentsE1 = $arrayFragForEachCellE1[$i];
+      $numberOfFragmentsE2 = $arrayFragForEachCellE2[$i];
+      $arrayofFilesendo[0] =   $at_[0];
+      if ($diploidMode) {
+	$arrayofFilesendo[1] = $at_[1];
+      }
+    }
+
+    if ($diploidMode) {
+      my $cmd1="".$fragsim." -tag e1_".$i." -n ".$numberOfFragmentsE1;
+
+      $cmd1 .= " -m ".$minsize." ";
+      $cmd1 .= " -M ".$maxsize." ";
+
+      if (defined $misince) {
+	$cmd1 .= " --comp ".$misince." ";
+	$cmd1 .= " --dist ".$distmis." ";
+      }
+
+      if (defined $methyl) {
+	$cmd1 .= " --case ";
+      }
+
+
+      if (defined $filefragsize) {
+	$cmd1 .= " -s ".$filefragsize." ";
+      } else {
+	if (defined $filefragfreqsize) {
+	  $cmd1 .= " -f ".$filefragfreqsize." ";
+	} else {
+	  if (defined $loc) {
+	    $cmd1 .= " --loc ".$loc." --scale ".$scale." ";
+	  } else {
+	    $cmd1 .= " -l ".$fraglength;
+	  }
+	}
+      }
+
+
+      if($uniq){
+	$cmd1 .= " -uniq ";
+      }
+
+      $cmd1 .= "  ".$arrayofFilesendo[0]." |gzip ";
+      if($firstCmdFrag){
+	$cmd1 .= " > ";
+	$firstCmdFrag=0;
+      }else{
+	$cmd1 .= " >> "
+      }
+      $cmd1 .= "  ".$outputprefix.".e.fa.gz";
+
+      runcmd($cmd1);
+
+      my $cmd2="".$fragsim." -tag e2_".$i." -n ".$numberOfFragmentsE2;
+
+      $cmd2 .= " -m ".$minsize." ";
+      $cmd2 .= " -M ".$maxsize." ";
+
+      if (defined $methyl) {
+	$cmd2 .= " --case ";
+      }
+
+      if (defined $filefragsize) {
+	$cmd2 .= " -s ".$filefragsize." ";
+      } else {
+	if (defined $filefragfreqsize) {
+	  $cmd2 .= " -f ".$filefragfreqsize." ";
+	} else {
+
+========== DAMAGE SIMULATION ==========
+
+
+########################
+#                      #
+#  Calling deamSim     #
+#                      #
+########################
+#endogenous
+if( (defined $matfilenonmeth)
+    ||
+    (defined $matfilemeth)
+    ||
+    (defined $matfilee)
+    ||
+    (defined $briggse)
+    ||
+    (@mapdamagee) ){
+
+  my $cmde="".$deamsim." ";
+  if( (defined $matfilee) ){
+    $cmde .= " -matfile ".$matfilee." ";
+  }
+
+  if( (defined $matfilenonmeth) ){
+    $cmde .= " -matfilenonmeth ".$matfilenonmeth." ";
+  }
+
+  if( (defined $matfilemeth) ){
+    $cmde .= " -matfilemeth    ".$matfilemeth." ";
+  }
+
+  if( (defined $briggse) ){
+    $cmde .= " -damage ".$briggse." ";
+  }
+
+  if( (@mapdamagee) ){
+    $cmde .= " -mapdamage ".$mapdamagee[0]." ".$mapdamagee[1]." ";
+  }
+
+  $cmde.=" ".$outputprefix.".e.fa.gz  | gzip > ".$outputprefix."_d.fa.gz";
+  runcmd($cmde);
+}else{
+
+  #no deamination on the endogenous
+  my $cmde= "gzip -c -d  ".$outputprefix.".e.fa.gz  | gzip > ".$outputprefix."_d.fa.gz";
+  runcmd($cmde);
+
+}
+
+
+#bacteria
+if( (defined $matfilenonmeth)
+    ||
+    (defined $matfilemeth)
+    ||
+    (defined $matfileb)
+    ||
+    (defined $briggsb)
+    ||
+    (@mapdamageb) ){
+
+  my $cmdb="".$deamsim." ";
+  if( (defined $matfileb) ){
+    $cmdb .= " -matfile ".$matfileb." ";
+  }
+
+
+  if( (defined $matfilenonmeth) ){
+    $cmdb .= " -matfilenonmeth ".$matfilenonmeth." ";
+  }
+
+  if( (defined $matfilemeth) ){
+    $cmdb .= " -matfilemeth    ".$matfilemeth." ";
+  }
+
+  if( (defined $briggsb) ){
+    $cmdb .= " -damage ".$briggsb." ";
+  }
+
+  if( (@mapdamageb) ){
+    $cmdb .= " -mapdamage ".$mapdamageb[0]." ".$mapdamageb[1]." ";
+  }
+
+  $cmdb.=" ".$outputprefix.".b.fa.gz  |gzip >> ".$outputprefix."_d.fa.gz";
+  runcmd($cmdb);
+}else{
+
+========== ADAPTER AND SEQUENCING ==========
+}
+
+########################
+#                      #
+#  Calling adptSim     #
+#                      #
+########################
+
+my $cmdad =     "".$adptsim." ";
+$cmdad   .= " -f ".$adapterF." ";
+$cmdad   .= " -s ".$adapterR." ";
+$cmdad   .= " -l ".$readlength." ";
+if($se){
+  $cmdad .= " -arts ".$outputprefix."_a.fa";
+}else{
+  $cmdad .= " -artp ".$outputprefix."_a.fa";
+}
+$cmdad .= "  ".$outputprefix."_d.fa.gz";
+runcmd($cmdad);
+
+########################
+#                      #
+#  Calling     art     #
+#                      #
+########################
+
+my $cmdsq="".$artprog." -ss ".$ss." -amp -na ";
+if($se){
+  $cmdsq .= "    ";
+}else{
+  $cmdsq .= " -p ";
+}
+$cmdsq .= " -i ".$outputprefix."_a.fa ";
+$cmdsq .= " -l ".$readlength." ";
+$cmdsq .= " -c 1 ";
+$cmdsq .= " -qs  ".$qs." ";
+$cmdsq .= " -qs2 ".$qs2." ";
+
+$cmdsq .= " -o ".$outputprefix."_s";
+runcmd($cmdsq);
+
+my $cmdzip;
+
+$cmdzip = "gzip -f ".$outputprefix."_a.fa";
+runcmd($cmdzip);
+
+if($se){
+  $cmdzip = "gzip -f ".$outputprefix."_s.fq";
+  runcmd($cmdzip);
+  print STDERR "Single-end reads available here: ".$outputprefix."_s.fq.gz\n";
+}else{
+  $cmdzip = "gzip -f ".$outputprefix."_s1.fq";
+  runcmd($cmdzip);
+  $cmdzip = "gzip -f ".$outputprefix."_s2.fq";
+  runcmd($cmdzip);
+
+  print STDERR "Paired-end forward reads available here: ".$outputprefix."_s1.fq.gz\n";
+  print STDERR "Paired-end reverse reads available here: ".$outputprefix."_s2.fq.gz\n";
+
+}
+
+print STDERR "Program finished successfully\n";
