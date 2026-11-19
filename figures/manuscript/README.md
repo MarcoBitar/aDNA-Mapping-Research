@@ -20,3 +20,18 @@ The parent `figures/` directory contains six additional analysis figures in PNG 
 Strict correctness requires the expected original-rCRS start position, strand, and full-length match CIGAR. Therefore, strict recall should not be interpreted as coordinate-only mapping accuracy.
 
 The reported PMD seed repetitions represent stochastic damage realizations on fixed source fragments, not independent biological replicates.
+
+## Figure Generation and Reproducibility
+
+The four images in this directory are the figures included in the final manuscript.
+
+The repository also provides two figure-generation scripts:
+
+- `scripts/generate_all_manuscript_figures.py`
+- `scripts/redesign_manuscript_figures.py`
+
+These scripts generate six analysis figures in the parent `figures/` directory. They do not currently reproduce the four final manuscript figures with identical numbering and presentation.
+
+The manuscript figures are provided separately to establish an unambiguous correspondence between the published figures and the repository files.
+
+The underlying experimental results are stored in the repository's `results/` directory.
