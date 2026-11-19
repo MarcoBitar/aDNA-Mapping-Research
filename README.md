@@ -35,6 +35,13 @@ The project evaluates whether shifting the reference restores correct mapping at
 5. Examine incorrect alignments, alignment operations, and mapping-quality scores.
 6. Provide reproducible datasets, scripts, ground-truth annotations, alignment outputs, and experimental results.
 
+## Final Manuscript Figures
+The four figures presented in the final CMPS355 research manuscript are available in the [Final Manuscript Figures directory](figures/manuscript/).
+
+The directory includes a figure correspondence table identifying the exact repository file associated with each manuscript figure and describing its content.
+
+The six additional analysis figures in the parent `figures/` directory are separate from the final manuscript figure numbering.
+
 ## Experimental Design
 
 ### Reference Genome
@@ -244,7 +251,8 @@ The `results/` directory contains evaluation outputs in CSV and TSV formats, inc
 - `circular_pmd_replicate_summary.csv`
 - `circular_reference_shifting_comparison.csv`
 
-The `figures/` directory contains the final manuscript visualizations, including analyses of fragment length, PMD severity, reference shifting, incorrect alignments, and MAPQ filtering.
+
+The `figures/manuscript/` directory contains the four figures included in the final manuscript, with a figure correspondence table in its README. The parent `figures/` directory contains six additional analysis figures.
 
 ## Scope and Limitations
 
