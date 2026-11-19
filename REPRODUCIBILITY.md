@@ -238,24 +238,29 @@ The reference-shifting comparison uses the replicate-level recall table produced
 
 The MAPQ analysis examines alignment files separately.
 
-## 9. Generate final manuscript figures
+## 9. Generate figures
+
+### Four figures in the final submitted manuscript
+
+The four final manuscript images and their correspondence table are archived in [figures/manuscript/](figures/manuscript/). They are distinct from the six additional analysis figures in the parent figures directory.
+
+The separate script `scripts/generate_final_four_manuscript_figures.py` is provided to regenerate the four data visualizations from the archived CSV, ground-truth TSV, and Bowtie2 SAM files. From the repository root, run:
+
+```bash
+python scripts/generate_final_four_manuscript_figures.py
+```
+
+The script writes PNG and PDF outputs under `figures/manuscript/reproduced/`, leaving the submitted images unchanged. The script must be tested against the complete archived dataset before claiming full figure reproducibility. Presentation details may vary with plotting-library versions.
+
+### Six additional analysis figures
+
+The original workflow remains available:
 
 ```bash
 python scripts/redesign_manuscript_figures.py
 ```
 
-This script first executes generate_all_manuscript_figures.py, then generates the final redesigned manuscript figures.
-
-The six figures are saved in figures/ as PNG and PDF files:
-
-1. figure1_pmd_length_recall
-2. figure2_reference_boundary
-3. figure3_shifting_effect
-4. figure4_damage_baseline
-5. figure5_mapping_errors
-6. figure6_mapq_filtering
-
-Running this command overwrites figure files with matching names. Use a separate working copy if the archived figures must remain unchanged.
+It runs `generate_all_manuscript_figures.py` and produces six separately numbered analysis figures in `figures/`. This workflow may overwrite the existing six analysis plots; use a separate working copy if needed.
 
 ## 10. Reproducibility notes
 
