@@ -30,7 +30,7 @@ The repository also provides two figure-generation scripts:
 - `scripts/generate_all_manuscript_figures.py`
 - `scripts/redesign_manuscript_figures.py`
 
-These scripts generate six analysis figures in the parent `figures/` directory. They do not currently reproduce the four final manuscript figures with identical numbering and presentation.
+These two scripts generate six additional analysis figures in the parent `figures/` directory. A separate script, `scripts/generate_final_four_manuscript_figures.py`, regenerates the four manuscript data visualizations from archived inputs and saves them in `figures/manuscript/reproduced/` without overwriting the submitted images. Its outputs must be validated against the archived results before claiming full reproducibility.
 
 The manuscript figures are provided separately to establish an unambiguous correspondence between the published figures and the repository files.
 
